@@ -261,7 +261,7 @@ This is a simple example using the **Generate** endpoint.
 1. Ensure you have the `stablelm-zephyr` model installed:
 
    ```bash
-   ollama pull stablelm-zephyr
+   ollama pull mistral:7b-instruct-v0.2-q8_0
    ```
 
 2. Install the Python Requirements.
