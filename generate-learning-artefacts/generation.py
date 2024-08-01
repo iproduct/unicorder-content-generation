@@ -31,7 +31,7 @@ def main():
     user_input = "generate more basic programming problems/challenges together with unit tests for their solutions' verification"
     print(user_input)
     context = generate(user_input, context)
-    print(context)
+    print()
 
 if __name__ == "__main__":
     main()
