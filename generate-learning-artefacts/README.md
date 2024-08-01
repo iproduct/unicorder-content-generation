@@ -227,7 +227,7 @@ The **chat** endpoint is one of two ways to generate text from an LLM with Ollam
 3. Run the example:
 
    ```bash
-   python client.py
+   python interactive.py
    ```
 
 ### Review the Code
@@ -252,7 +252,7 @@ In the **main** function, we collect `user_input` and add it as a message to our
 In this example, all generations are kept. You might want to experiment with summarizing everything older than 10 conversations to enable longer history with less context being used.
 
 
-## Artifacts Generation Example
+## Learning Artifacts Generation Example
 
 This is a simple example using the **Generate** endpoint.
 
@@ -273,7 +273,7 @@ This is a simple example using the **Generate** endpoint.
 3. Run the example:
 
    ```bash
-   python client.py
+   python generation.py
    ```
 
 ### Review the Code
